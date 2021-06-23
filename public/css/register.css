@@ -1,0 +1,130 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81532;
+}
+.logo {
+    padding-top: 18px;
+}
+/* 主体 */
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 42px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    line-height: 42px;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.login {
+    float: right;  
+    font-size: 14px;
+}
+.login a {
+    color: #c81532;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px  auto 0;
+    
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li label {
+    display: inline-block;
+    width: 114px;
+    text-align: right;
+    padding-right: 5px;
+}
+.reg_form ul li input[type="text"] {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.error,
+.success {
+    color: red;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+.success {
+    color: green;
+}
+.success_icon {
+    background: url(../images/success.png) no-repeat;
+}
+.safe {
+    color: #ccc;
+    padding-left: 151px;
+}
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree input {
+    vertical-align: middle;
+    margin-left: 123px;
+    margin-bottom: 1px;
+}
+.agree a {
+    color: #1ba1e6;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 137px;
+}
+
+/* 底部模块 */
+/* mod_copyright模块 */
+.mod_copyright {
+    padding-top: 20px;;
+}
+.mod_copyright .links {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.mod_copyright .links a {
+    padding: 0 10px;
+}
+.mod_copyright .copyright p {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+
+/* 设置内外边距零，盒子大小为内容大小 */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 取消表单列前的小圆点 */
+li {
+    list-style: none;
+}
+
+/* em,i字体不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+
+/* 照顾低版本浏览器，如果图像外边有链接会出现边框问题
+    并取消图像底部留白 */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/* 初始化按钮样式 */
+button {
+    /* 鼠标经过显式小手 */
+    cursor: pointer;
+    /* 取消按钮边框 */
+    border: 0;
+    outline: none;
+}
+input {
+    border: 0;
+    outline: none;
+}
+/* 统一链接样式 */
+a {
+    color: #666;
+    text-decoration: none;
+}
+a:hover {
+    color: #c81623;
+}
+
+body {
+    color: #666;
+    font-size: 14px;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

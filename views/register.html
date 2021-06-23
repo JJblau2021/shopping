@@ -1,0 +1,98 @@
+<!-- 注册页面不需要SEO优化 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet icon" href="/public/favicon.ico">
+
+    <!-- 引入基础样式 -->
+    <link rel="stylesheet" href="/public/css/base.css">
+    <!-- 引入注册页样式 -->
+    <link rel="stylesheet" href="/public/css/register.css">
+</head>
+
+<body>
+    <div class="w">
+        <!-- 注册页头部 -->
+        <header>
+            <div class="logo">
+                <a href="/"><img src="/public/images/logo.png" alt=""></a>
+            </div>
+        </header>
+        <!-- 注册页主体 -->
+        <div class="registerarea">
+            <h3>注册新用户
+                <div class="login">我有账号,去<a href="#">登录</a></div>
+            </h3>
+            <div class="reg_form">
+                <form action="" method="get">
+                    <ul>
+                        <li><label for="phoneNr">手机号:</label>
+                            <input type="text" name="phoneNr" id="phoneNr" maxlength="11"><span class="error">
+                                <i class="error_icon"></i>
+                                手机号码格式不正确,请重新输入</span>
+                        </li>
+                        <li><label for="yanzhengma">短信验证码:</label>
+                            <input type="text" name="yanzhengma" id="yanzhengma" maxlength="6"><span class="success">
+                                <i class="success_icon"></i>
+                                短信验证码输入正确</span>
+                        </li>
+                        <li><label for="pwd">登录密码:</label>
+                            <input type="text" name="pwd" id="pwd" minlength="6" maxlength="12"><span class="error">
+                                <i class="error_icon"></i>
+                                手机号码格式不正确,请重新输入</span>
+                        </li>
+                        <li class="safe">安全程度
+                            <em class="ruo">弱</em>
+                            <em class="zhong">中</em>
+                            <em class="qiang">强</em>
+                        </li>
+                        <li><label for="pwd2">确认密码:</label>
+                            <input type="text" id="pwd2" maxlength="12"><span class="error">
+                                <i class="error_icon"></i>
+                                手机号码格式不正确,请重新输入</span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox" id="ckbox"><label for="ckbox">同意协议并注册</label>
+                            <a href="#">《知晓用户协议》</a>
+                        </li>
+                        <li><button type="submit" class="btn">提交按钮</button></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+        <!-- 注册页底部 -->
+        <div class="footer">
+            <!-- mod_copyright模块 start -->
+            <div class="mod_copyright w">
+                <div class="links">
+                    <a href="">关于我们</a> |
+                    <a href="">联系我们</a> |
+                    <a href="">联系客服</a> |
+                    <a href="">商家入驻</a> |
+                    <a href="">营销中心</a> |
+                    <a href="">手机品优购</a>|
+                    <a href="">友情链接</a> |
+                    <a href="">销售联盟</a> |
+                    <a href="">品优购社区</a> |
+                    <a href="">品优购公益</a> |
+                    <a href="">English Site</a> |
+                    <a href="">Contact U</a>
+                </div>
+                <div class="copyright">
+                    <p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱:
+                        zhanghj+itcast.cn</p>
+                    <p>京ICP备08001421号京公网安备110108007702</p>
+                </div>
+            </div>
+            <!-- mod_copyright模块 end -->
+        </div>
+    </div>
+</body>
+
+</html>
